@@ -1,21 +1,21 @@
 
-/*const body = document.querySelector('body');
+const body = document.querySelector('body');
 const button = document.querySelector('button');
-const color = ['red', 'blue', 'green', 'gray', 'yellow', 'violet'];
+const colors = ['red', 'blue', 'green', 'gray', 'yellow', 'violet'];
 
 body.style.backgroundColor = 'orange';
-button.addEventListener ('click', changeColor);
+button.addEventListener ('click', changeBgColor);
 
-function changeColor (){
-	const colorIndex = parseInt(Math.random() * color.length);
-	body.style.backgroundColor = color[colorIndex];
-}*/
+function changeBgColor (){
+	const colorIndex = parseInt(Math.random() * colors.length);
+	body.style.backgroundColor = colors[colorIndex];
+}
 
 
 
 
 //Choose a random color
-const button = document.querySelector('button')
+/*const button = document.querySelector('button')
 const body = document.querySelector('body')
 const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 
