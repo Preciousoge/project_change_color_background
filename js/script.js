@@ -1,7 +1,7 @@
 
 const body = document.querySelector('body');
 const button = document.querySelector('button');
-const colors = ['red', 'blue', 'green', 'gray', 'yellow', 'violet', 'azure', 'cyan'];
+const colors = ['black', 'hotpink', 'olive', 'gray', 'teal', 'violet', 'azure', 'cyan'];
 
 body.style.backgroundColor = 'orange';
 button.addEventListener ('click', changeBgColor);
